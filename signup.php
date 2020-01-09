@@ -1,7 +1,7 @@
 <?php
 $message = "";
 $error = false;
-if( $_SERVER['REQUEST_METHOD'] ==='POST'){
+if( $_SERVER['REQUEST_METHOD'] ==='POST') {
 	require "connect1.php";
 
 	$name = $_POST["name"];
