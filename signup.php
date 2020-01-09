@@ -50,10 +50,15 @@ if( $_SERVER['REQUEST_METHOD'] ==='POST') {
 
 <html>
 <head>
-  <title>Sign Up</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  	<title>Sign Up</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  	<style type="text/css">
+  		body{
+			background-color: #e4eaeb;
+		}
+  	</style>
 </head>
 <body>
 	<div class="container">
@@ -103,28 +108,6 @@ if( $_SERVER['REQUEST_METHOD'] ==='POST') {
 			</div>
 			
 			<input type="submit" value="Sign up" class="btn btn-success">
-
-
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		</div>
 	</body>
 </html>
